@@ -4,13 +4,17 @@
         "module": "commonjs",
         "lib": [
             "dom",
-            "es6"
+            "es6",
+            "es2018",
+            "esnext.asynciterable"
         ],
         "outDir": "dist",
         "rootDir": "src",
         "moduleResolution": "node",
         "strict": true,
         "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
     },
     "exclude": [
         "node_modules"
